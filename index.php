@@ -27,7 +27,7 @@ function random_redirect_mso_options()
     # ключ, тип, ключи массива
     mso_admin_plugin_options('plugin_random_redirect', 'plugins',
         array(
-            'random_redirect_width' => array(
+            'slug' => array(
                             'type' => 'text',
                             'name' => t('URL по которому будет происходить перенаправление'),
                             'description' => '',
